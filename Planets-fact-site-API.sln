@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planets-fact-site-API", "Planets-fact-site-API.csproj", "{3FC051BC-9F52-42FD-9A66-FB3D33502B44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FC051BC-9F52-42FD-9A66-FB3D33502B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC051BC-9F52-42FD-9A66-FB3D33502B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC051BC-9F52-42FD-9A66-FB3D33502B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC051BC-9F52-42FD-9A66-FB3D33502B44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
