@@ -11,14 +11,7 @@ public class PlanetsController : BaseApiController
     public PlanetInformation Earth()
     {
         var earth = new PlanetsRepo();
-        return earth.GetEarth();
-    }
-    
-    [HttpGet]
-    [Route("[Mercury]")]
-    public PlanetInformation Mercury()
-    {
-        var earth = new PlanetsRepo();
-        return earth.GetEarth();
+        //return earth.Planets();
+        throw new NotImplementedException();
     }
 }
