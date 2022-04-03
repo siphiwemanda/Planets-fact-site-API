@@ -7,11 +7,20 @@ namespace Planets_fact_site_API.Controllers;
 public class PlanetsController : BaseApiController
 {
     [HttpGet]
-    [Route("Earth")]
-    public PlanetInformation Earth()
+    public List<PlanetInformation> GetAllPlanets()
     {
-        var earth = new PlanetsRepo();
-        //return earth.Planets();
-        throw new NotImplementedException();
+        var repo = new PlanetsRepo();
+        var allPlanets = new Planets(repo.Planets());
+        return allPlanets.AllPlanets();
+        
+    }
+    
+    [HttpGet ("{planetName}")]
+    public PlanetInformation GetPlanet(string planetName)
+    {
+        var repo = new PlanetsRepo();
+        var allPlanets = new Planets(repo.Planets());
+        return allPlanets.Planet(planetName);
+        
     }
 }
